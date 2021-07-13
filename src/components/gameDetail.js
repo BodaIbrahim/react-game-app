@@ -15,7 +15,7 @@ const GameDetail = () => {
           </div>
           <div className="info">
             <h3>Platforms</h3>
-
+//this errors out
             <div className="platforms">
               {game.platforms &&
                 game.platforms.map((data) => (
@@ -24,9 +24,11 @@ const GameDetail = () => {
             </div>
           </div>
         </div>
+
         <div className="media">
           <img src={game.background_image} alt="image" />
         </div>
+//this errors out 
         <div className="gallery">
           {screen.results &&
             screen.results.map((screen) => (
